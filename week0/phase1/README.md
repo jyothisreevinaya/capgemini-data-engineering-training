@@ -1,4 +1,5 @@
 Phase 1 Learnings:
+
 This phase helped me to understand conecpts clearly compared to phase0.
 I learned how to convert SQL Queries to PySpark.
 Initially learing SQL had helped me to grasp PySpark quickly.
