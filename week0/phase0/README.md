@@ -7,5 +7,5 @@ we covered
   
 Challenges Faced
 
--Initially got confused between SQL and PySpark Syntax
--Took more time to understand PySpark concepts compared to SQL
+.Initially got confused between SQL and PySpark Syntax
+.Took more time to understand PySpark concepts compared to SQL
