@@ -6,5 +6,6 @@ we covered
 - Learned to execute data in PySpark Playground
   
 Challenges Faced
+
 -Initially got confused between SQL and PySpark Syntax
 -Took more time to understand PySpark concepts compared to SQL
