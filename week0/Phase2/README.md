@@ -13,19 +13,19 @@ Approach :
 
 Key Learnigs:
 
--SparkSession : Used to start PySpark and work with data.
+- SparkSession : Used to start PySpark and work with data.
 
--Create DataFrame() : Used to create table(DataFrame) from data. 
+- Create DataFrame() : Used to create table(DataFrame) from data. 
 
--show() is used to display the data , select() is used to choose specific columns, count()- used to count number of rows
+- show() is used to display the data , select() is used to choose specific columns, count()- used to count number of rows
 
--filter() used to get only required rows based on conditions, groupBy() used to group data and perform operations.
+- filter() used to get only required rows based on conditions, groupBy() used to group data and perform operations.
 
 Challenges:
 
--Difficulty of using joins in PySpark
+- Difficulty of using joins in PySpark
 
--Handling null values in PySpark
+- Handling null values in PySpark
 
 Results :
 
