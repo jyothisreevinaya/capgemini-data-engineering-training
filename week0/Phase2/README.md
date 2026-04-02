@@ -1,3 +1,4 @@
+# SQL to PySpark – Phase 3:
 Before starting this phase, I faced several challenges while working with PySpark, especially in understanding joins, aggregations, and syntax differences from SQL.
 This phase helped me improve my problem-solving skills .
 
@@ -15,7 +16,7 @@ This phase helped me improve my problem-solving skills .
 
 - Handled null values using methods like drop() and fill().
 
-Key Learnigs:
+# Key Learnigs:
 
 - Underatnding PySpark DataFrames and using Basic operations like show(),select(), filter() , count() to view and manipulate data.
 
@@ -27,13 +28,13 @@ Key Learnigs:
 
 - Understand how to filter required data and organize it for better analysis.
 
-Challenges:
+# Challenges:
 
 - Difficulty of using joins in PySpark
 
 - Handling null values in PySpark
 
-Results :
+# Results :
 
 - Successfully created and worked with DataFrames
 
