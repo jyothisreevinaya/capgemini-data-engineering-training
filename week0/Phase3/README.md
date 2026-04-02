@@ -17,7 +17,6 @@ The task was to:
 * Build a complete ETL pipeline
 
 ## Approach
-
 1. Created datasets and loaded them into PySpark DataFrames
 2. Performed data cleaning:
    * Removed null values
