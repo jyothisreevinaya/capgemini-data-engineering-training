@@ -1,4 +1,4 @@
-# Objective
+#Objective
 In this phase, the goal is to build a complete "ETL (Extract, Transform, Load) pipeline" using PySpark.
 This includes reading data, cleaning it, performing transformations, and generating meaningful business insights.
 
