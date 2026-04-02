@@ -1,4 +1,4 @@
-# SQL to PySpark – Phase 3:
+# SQL to PySpark – Phase 2:
 Before starting this phase, I faced several challenges while working with PySpark, especially in understanding joins, aggregations, and syntax differences from SQL.
 This phase helped me improve my problem-solving skills .
 
