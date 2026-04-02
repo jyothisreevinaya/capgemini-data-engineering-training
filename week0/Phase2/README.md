@@ -1,7 +1,7 @@
 Before starting this phase, I faced several challenges while working with PySpark, especially in understanding joins, aggregations, and syntax differences from SQL.
 This phase helped me improve my problem-solving skills .
 
-Approach :
+# Approach :
 
 - Started with creating a SparkSession
   
