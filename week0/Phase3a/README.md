@@ -44,9 +44,13 @@ The task was to:
 ## Key Transformations Used
 
 • 'filter()' -> to remove null and invalid records
+
 • 'fillna()' -> to handle missing values
+
 • 'dropduplicates()' -> to remove duplicate rows
+
 •  'groupBy()'  -> for aggregation
+
 • 'count()' -> to calculate number of customers
 
 ## Output / Results
@@ -54,7 +58,9 @@ The task was to:
 The following outputs were generated:
 
 • Cleaned dataset without null keys, duplicates, and invalid values
+
 • Validation metrics (row count before and after cleaning)
+
 • Aggregated data showing number of customers per city
 
 Screenshots of outputs are available in the outputs/ folder.
@@ -62,27 +68,46 @@ Screenshots of outputs are available in the outputs/ folder.
 ## Data Engineering Considerations
 
 • Removed null primary keys to maintain data integrity
+
 • Handled missing values to avoid incorrect results
+
 • Eliminated duplicates to ensure accurate aggregation
+
 • Filtered invalid data (negative age)
+
 • Validated results to ensure correctness
 
 ## Challenges Faced
 
 • Identifying all types of data issues in the dataset
+
 • Deciding how to handle missing values
+
 • Ensuring correct order of cleaning steps
 
 ## Learnings
 
 • Importance of data cleaning in real-world datasets
+
 • How to handle null values and duplicates in PySpark
+
 • Impact of bad data on analysis results
+
 • Need for validation after cleaning
 
 ## Files in this Folder
 
 • 'pyspark_code.py' → PySpark implementation
+
 • 'phase3a_problem_statement.pdf'→ Problem description
+
 • 'outputs/' → Output screenshots
+
+## Conclusion
+
+This phase highlights the importance of data quality and preprocessing in data engineering. By identifying and resolving issues such as null values, duplicates, and invalid data, we ensured that the dataset became reliable for analysis.
+
+The cleaning process improved data accuracy and prevented misleading results during aggregation. This demonstrates that proper data cleaning is a crucial step before any transformation or analysis, as it directly impacts the quality of insights and business decisions.
+
+Overall, this phase provided practical experience in handling real-world messy data using PySpark and reinforced the need for validation and structured data cleaning workflows.
 
