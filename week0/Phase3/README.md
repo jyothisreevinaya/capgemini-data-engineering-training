@@ -8,9 +8,7 @@ This includes reading data, cleaning it, performing transformations, and generat
 ## Problem Summary
 
 We were given datasets such as "customers and orders".
-
 The task was to:
-
 * Perform data cleaning
 * Apply transformations and aggregations
 * Generate business insights
@@ -29,8 +27,7 @@ The task was to:
 4. Generated multiple business outputs
 5. Displayed and saved final results
 
-# ETL Pipeline
-
+## ETL Pipeline
 Every data engineering workflow follows three main steps:
 
 - Extract → Reading or collecting data from sources
