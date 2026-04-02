@@ -2,7 +2,7 @@
 In this phase, the goal is to build a complete "ETL (Extract, Transform, Load) pipeline" using PySpark.
 This includes reading data, cleaning it, performing transformations, and generating meaningful business insights.
 
-#Problem Summary
+# Problem Summary
 We were given datasets such as "customers and orders".
 The task was to:
 * Perform data cleaning
@@ -10,7 +10,7 @@ The task was to:
 * Generate business insights
 * Build a complete ETL pipeline
 
-#Approach
+# Approach
 1. Created datasets and loaded them into PySpark DataFrames
 2. Performed data cleaning:
    * Removed null values
@@ -33,7 +33,7 @@ This phase applies all three steps using PySpark.
 
 let me take a sample query 1 to understand ETL pipeline:
 
-#Extract
+# Extract
 * Created DataFrames using sample data
 * Simulates reading from CSV/Database
   
@@ -92,7 +92,7 @@ Screenshots of outputs are available in the **outputs/** folder.
 * Window functions like `rank()'
 * Understood how SQL queries are converted into PySpark
 
-##Files in this Folder
+## Files in this Folder
 
 * `etl_pipeline.py' -> ETL pipeline implementation
 * 'pyspark.py' -> pyspark codes
