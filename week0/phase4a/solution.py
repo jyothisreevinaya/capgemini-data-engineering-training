@@ -60,3 +60,43 @@ df_compare.select("name", "total_spend", "segment", "segment_quantile").show()
 # Show final outputs
 df_seg.show()
 df_quantile.show()
+
+# 5. 5. Reflect: which method is most useful and why?
+
+Quantile-based segmentation is better because it adapts to data distribution, while conditional logic uses fixed rules.
+
+# Reflection Questions
+
+## Why do we convert continuous values into categories?
+
+Continuous values are converted into categories to make data easier to understand and analyze.
+It helps in simplifying complex data and supports better decision-making (e.g., grouping customers as Gold, Silver, Bronze).
+
+## What is the difference between business segmentation and technical bucketing?
+
+* **Business segmentation** is based on business needs and rules (e.g., high-value customers).
+* **Technical bucketing** is based on implementation methods in tools like PySpark (e.g., Bucketizer, quantiles).
+
+## When would fixed thresholds fail?
+
+Fixed thresholds fail when:
+* Data distribution changes
+* Values are unevenly distributed
+* Real-world data keeps updating
+
+Example: If most customers spend above 5000, then all may fall into one category.
+
+## How does quantile-based segmentation differ from fixed rules?
+
+* Fixed rules use predefined limits (e.g., >5000 = Gold)
+* Quantile-based segmentation divides data into equal-sized groups based on distribution
+* Quantile is dynamic, fixed rules are static.
+
+
+## Which method would you use in real-world projects?
+
+Quantile-based segmentation is more useful because it adapts to data distribution.
+In real-world projects, a combination of **business rules + quantile method** is often used.
+
+
+
