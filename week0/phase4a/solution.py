@@ -74,8 +74,8 @@ It helps in simplifying complex data and supports better decision-making (e.g., 
 
 ## What is the difference between business segmentation and technical bucketing?
 
-* **Business segmentation** is based on business needs and rules (e.g., high-value customers).
-* **Technical bucketing** is based on implementation methods in tools like PySpark (e.g., Bucketizer, quantiles).
+* Business segmentation is based on business needs and rules. (e.g., high-value customers).
+* Technical bucketing is based on implementation methods in tools like PySpark (e.g., Bucketizer, quantiles).
 
 ## When would fixed thresholds fail?
 
