@@ -31,14 +31,19 @@ The tasks included:
 • order_id
 
 Applied advanced transformations:
+
 • Window functions (RANK, DENSE_RANK)
 • Aggregations (SUM, COUNT)
 
 Created final reporting dataset
+
 • Key Concepts Used
 • Window Functions
+
 Used for ranking and running totals
+
 Examples:
+
 RANK() → Top customers per city
 DENSE_RANK() → Top products
 Running total using SUM() OVER
