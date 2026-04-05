@@ -1,40 +1,64 @@
-Phase 1 Learnings:
+## Phase 1 
 
-This phase helped me to understand conecpts clearly compared to phase0.
-I learned how to convert SQL Queries to PySpark.
-Initially learing SQL had helped me to grasp PySpark quickly.
-we used DB Fiddle(for SQL practice) and Spark Playground(for PySpark)
+## Objective
 
-Approach :
+In this phase, the goal was to understand the basics of PySpark and learn how to convert SQL queries into PySpark operations.
 
-- Started with creating a SparkSession
-  
-- Created DataFrames using Sample data.
-  
-- I used methods like show(), select(), filter(), count()
+## Problem Summary
 
-- Applied groupBy() for grouping and aggregation.
+The task was to:
+• Learn fundamental PySpark concepts
+• Understand how SQL queries can be implemented using PySpark
+• Practice basic data operations using sample datasets
 
-Learning Outcomes:
+## Approach
 
-- SparkSession : Used to start PySpark and work with data.
+1. Started by creating a SparkSession
+2. Created DataFrames using sample data
+3. Practiced basic operations:
+   o show() to display data
+   o select() to choose specific columns
+   o filter() to apply conditions
+   o count() to count rows
+4. Applied groupBy() for grouping and aggregation
 
-- Create DataFrame() : Used to create table(DataFrame) from data. 
+##  Key Transformations Used
 
-- show() is used to display the data , select() is used to choose specific columns, count()- used to count number of rows
+• show() → to display data
+• select() → to select required columns
+• filter() → to get filtered data
+• count() → to count number of rows
+• groupBy() → to perform grouping and aggregation
 
-- filter() is used to get only required rows based on condition and groupBy() is used to group data and perform operations like count ,sum.
-  
-Challenges Faced:
+##  Output / Results
 
-- Confusion in using groupBy()
-  
-- Matching SQL Conditions to PySpark
+The following outputs were achieved:
+• Successfully created and worked with DataFrames
+• Performed operations like select, filter, and groupBy
+• Displayed and analyzed data using PySpark methods
 
-Results :
+## Data Engineering Considerations
 
-- Successfully created and worked with DataFrames.
+• Used structured approach to handle data in DataFrames
+• Ensured correct usage of transformations like filter and groupBy
+• Verified outputs using show() method
 
-- Performed Operations like select, filter and groupBy.
+## Challenges Faced
 
-- Displayed and analysed data using PySpark methods.
+• Confusion while using groupBy()
+• Difficulty in matching SQL conditions with PySpark syntax
+
+## Learnings
+
+• Understanding of SparkSession and its role
+• How to create and work with DataFrames
+• Conversion of SQL queries into PySpark
+• Importance of aggregation and filtering in data processing
+
+## Files in this Folder
+
+• solution.py → PySpark implementation
+• sql_queries.sql -> SQL implementation
+• outputs/ → Output screenshots
+
+
