@@ -120,5 +120,46 @@ print("Monthly Sales:")
 monthly_sales.show()
 
 # SAVE OUTPUT
-
 ranked_df.write.mode("overwrite").csv("/tmp/phase6_output")
+
+
+## Reflection Questions
+
+1. Which task took the most time?
+
+The most time-consuming task was implementing **quantile-based segmentation in SQL**. Unlike PySpark, MySQL (especially older versions) does not support advanced functions like `NTILE()`, so I had to try different approaches and adjust the logic manually.
+
+2. What mistakes did you make?
+I made a few mistakes during the process:
+* Used unsupported SQL functions like `NTILE()` in MySQL
+* Referred to incorrect column names(e.g., `JoinDate` instead of `date`).
+* Tried creating views with unsupported syntax.
+* Faced issues with data types and formats (dates).
+
+3. How did you debug issues?
+I debugged issues by:
+* Carefully reading the **error messages.
+* Checking column names using SELECT statements.
+* Running queries step-by-step instead of all at once.
+* Simplifying logic when advanced functions were not supported
+* Verifying intermediate outputs before moving forward
+
+4. Can you now build pipeline independently?
+
+Yes, I can now build a basic **ETL pipeline independently**. I understand how to:
+
+* Extract data into tables
+* Clean and transform data
+* Perform aggregations and joins
+* Create segmentation logic
+* Generate final reports
+
+5. What needs improvement?
+
+I still need to improve in :
+* Writing optimized SQL queries.
+* Handling different database versions and compatibility issues.
+* Using more advanced functions and window operations.
+* Improving debugging speed and efficiency.
+
+
