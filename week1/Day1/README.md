@@ -28,7 +28,7 @@ The task was to:
 5. Converted JoinDate into proper date format using multiple formats
 6. Removed duplicate records
 
-## 🔹 Key Transformations Used
+## Key Transformations Used
 
 * 'read.csv()'→ to load the dataset
 * 'replace()' → to handle "blank" values
